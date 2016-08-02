@@ -113,10 +113,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="bin\Debug\discord_channels.json" />
+    <None Include="Config\discord_channels.json" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Config\config.json" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
